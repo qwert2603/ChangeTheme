@@ -1,3 +1,5 @@
 <resources>
     <public type="layout" name="chth_include_change_theme" />
+
+    <public type="string" name="chth_app_theme_follow_system" />
 </resources>

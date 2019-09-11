@@ -22,8 +22,8 @@ android {
 }
 
 dependencies {
-    implementation project (":library")
-//    implementation "com.github.qwert2603:ChangeTheme:1.0.0"
+//    implementation project (":library")
+    implementation "com.github.qwert2603:ChangeTheme:1.0.0-2"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "androidx.appcompat:appcompat:$appcompat_version"

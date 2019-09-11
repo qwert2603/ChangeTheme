@@ -36,7 +36,7 @@ class ChooseThemeDialogFragment : DialogFragment() {
         val arguments = requireArguments()
 
         return AlertDialog.Builder(requireContext())
-                .setTitle(R.string.chth_app_theme_dark_theme)
+                .setTitle(R.string.chth_settings_dark_theme)
                 .setSingleChoiceItems(
                         AppTheme.values().map { getString(it.nameRes) }.toTypedArray(),
                         arguments.getInt(KEY_SELECTED_INDEX, 0)
