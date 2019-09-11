@@ -4,4 +4,6 @@
     <string name="chth_app_theme_light">Выключена</string>
     <string name="chth_app_theme_dark">Включена</string>
     <string name="chth_app_theme_follow_system">Согласно системным настройкам</string>
+
+    <public type="string" name="chth_app_theme_light" />
 </resources>
