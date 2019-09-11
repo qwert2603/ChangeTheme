@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qwert2603.changetheme">
+
+    <application>
+        <provider
+            android:name=".ChangeThemeContentProvider"
+            android:authorities="${applicationId}.com.qwert2603.changetheme"
+            android:exported="false" />
+    </application>
+</manifest>
